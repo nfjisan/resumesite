@@ -1,0 +1,144 @@
+*{
+   margin:0px;
+   padding:0px;
+}
+body{background:url(img/floor.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+	
+.header_area{
+	text-align:center;
+}	
+.header{
+	border-bottom: 1px solid #cc0000;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.header h2{
+	text-transform:uppercase;
+	color:#444;
+	font-size:60px;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+}	
+.header p{
+ color:#444;
+ font-size:20px;
+ font-weight: bold;
+ font-family: 'Merriweather', serif;
+}
+span{
+	color: orange;
+}	
+
+
+
+
+.main_menu_area{}
+.main_menu{}
+.main_menu ul{
+	text-align:center;
+	list-style:none;
+}
+.main_menu ul li{
+	display:inline;
+	background:#f4f4f4;
+	padding: 12px 25px;
+}
+.main_menu ul li:hover{
+ background:#fff;
+}
+.main_menu ul li.active{
+ background:#fff;
+}
+.main_menu ul li i.fa{
+	color: #cc0000;
+	margin-right: 3px;
+	font-size: 16px;
+}
+.main_menu ul li a{
+	display:inline-block;
+	text-decoration:none;
+	font-family: 'Merriweather', serif;
+	font-size: 18px; 
+	color: #444;
+}
+
+
+
+.main_contant_area{
+	margin-top:-2px;
+}
+.main_content{  
+    background: #fff;
+    padding: 15px;
+    border-bottom: 5px solid #cc0000;
+    border-radius: 0px 0px 10px 10px;
+}
+.profile_pic{}
+.profile_pic img{
+    width: 200px;
+    border: 2px solid #cc0000;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 28px;
+}
+.profile_description{
+	border-right:1px solid #f1f1f1
+} 
+.single_profile_description{
+	border-bottom:1px solid #f1f1f1;
+}
+.single_profile_description h2{ 
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: #444;
+    font-size: 30px;
+}
+.single_profile_description p{  
+    font-family: 'Merriweather', serif;
+    color: #444;
+    font-size:20px;
+    padding: 10px 5px;
+}
+.sidebar{}
+.sidebar ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.sidebar ul li{
+	border-bottom:1px solid #f1f1f1;
+	padding: 7px 0px;
+}
+.sidebar ul li a{
+	font-family: 'Merriweather', serif;
+    text-decoration: none;
+    color: #cc0000;
+    font-size: 18px;
+    display: block;padding-left:10px
+}
+
+
+
+.footer_area{}
+.footer {
+	text-align:center;
+	background:#fff;
+	padding:8px;
+    background: rgba(255, 255, 255,.8);
+    box-shadow: 0px 5px #cc0000;border-radius:4px;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+.footer p{
+ color: #333;
+ font-size:18px;
+ font-family: 'Merriweather', serif;
+}
